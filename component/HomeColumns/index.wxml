@@ -1,0 +1,6 @@
+<view class="content" hover-class="none" hover-stop-propagation="false">
+    <navigator open-type="navigateTo" wx:for="{{imageUrl}}" wx:key="*this" url="{{item.url}}">
+        <image src="{{item.imgUrl}}"/>
+        <text selectable="false" space="false" decode="false">{{ item.name }}</text>         
+    </navigator>
+</view>

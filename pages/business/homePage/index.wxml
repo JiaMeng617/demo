@@ -1,0 +1,4 @@
+<homeInfo dataType="{{dataType}}"></homeInfo>
+<HomeColumns dataType="{{dataType}}"></HomeColumns>
+<HomeSwiper dataType="{{dataType}}"></HomeSwiper>
+<WaresList dataType="{{dataType}}"></WaresList>

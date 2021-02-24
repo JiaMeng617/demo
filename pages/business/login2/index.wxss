@@ -1,0 +1,51 @@
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.content image {
+  margin-top: 20%;
+  height: 200rpx;
+}
+.content .conView {
+  width: 500rpx;
+  letter-spacing: 2px;
+  display: flex;
+  flex-direction: column;
+  padding-top: 56px;
+  margin-top: 20px;
+  border-top: 3px solid #DCDCDC;
+}
+.content .conView text:nth-child(1) {
+  font-size: 0.7rem;
+  color: #4D4D4D;
+}
+.content .conView text:nth-child(2) {
+  font-size: 0.7rem;
+  color: #9F9F9F;
+  margin-top: 5px;
+}
+.content .conButton {
+  width: 500rpx;
+  height: 80rpx;
+  font-size: 0.7rem;
+  letter-spacing: 2px;
+}
+.content .button2 {
+  border: 1px solid #57B5F0;
+  color: #fff;
+  background-color: #57B5F0;
+}
+.content .button1 {
+  border: 1px solid #ADDAF7;
+  background-color: #fff;
+  color: #606060;
+}
+.content .conLanguage {
+  margin-top: 250rpx;
+  font-size: 0.5rem;
+}
+.content .conLanguage text {
+  color: #606060;
+}

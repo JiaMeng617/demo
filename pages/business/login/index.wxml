@@ -1,0 +1,19 @@
+<view class="content" hover-class="none" hover-stop-propagation="false">
+    <image src="cloud://water-h2hx9.7761-water-h2hx9-1301743701/images/1.png" mode="heightFix" lazy-load="false"></image>
+    <text class="conText" selectable="false" space="false" decode="false">三点饮水机</text>
+    <button class="conButton button1" hover-class="button2" bindtap="onLogin" data-value="{{ loginText1 }}" style="margin-top: 180rpx">
+        {{ loginText1 }}
+    </button>
+    <button class="conButton button1" hover-class="button2" bindtap="onLogin" data-value="{{ loginText2 }}" style="margin-top: 30rpx">
+        {{ loginText2 }}
+    </button>
+    <text class="conLanguage" style="margin-top: 250rpx;font-size: .5rem" selectable="false" space="false" decode="false">
+        <text class="" selectable="false" space="false" decode="false">简体</text>
+        <text style="margin: 0 20rpx">|</text>
+        <text class="" selectable="false" space="false" decode="false">繁体</text>
+        <text style="margin: 0 20rpx">|</text>
+        <text class="" selectable="false" space="false" decode="false">English</text>
+        <text style="margin: 0 20rpx">|</text>
+        <text class="" selectable="false" space="false" decode="false">常见问题</text>
+    </text>
+</view>

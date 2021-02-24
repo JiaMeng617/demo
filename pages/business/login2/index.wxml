@@ -1,0 +1,19 @@
+<view class="content" hover-class="none" hover-stop-propagation="false">
+    <image src="cloud://water-h2hx9.7761-water-h2hx9-1301743701/images/1.png" mode="heightFix" lazy-load="false"></image>
+    <view class="conView" hover-class="none" hover-stop-propagation="false">
+        <text selectable="false" space="false" decode="false">登录开发者将获得以下权限</text>
+        <text selectable="false" space="false" decode="false">获得你的公开信息 (昵称、头像及地区)</text>
+        <button open-type="getUserInfo" bindgetuserinfo="bindgetuserinfo" class="conButton button2" hover-class="button1" style="margin-top: 30rpx">
+            下 一 步
+        </button>
+    </view>
+    <text class="conLanguage" style="margin-top: 250rpx;font-size: .5rem;color: #606060;" selectable="false" space="false" decode="false">
+        <text class="" selectable="false" space="false" decode="false">简体</text>
+        <text style="margin: 0 20rpx">|</text>
+        <text class="" selectable="false" space="false" decode="false">繁体</text>
+        <text style="margin: 0 20rpx">|</text>
+        <text class="" selectable="false" space="false" decode="false">English</text>
+        <text style="margin: 0 20rpx">|</text>
+        <text class="" selectable="false" space="false" decode="false">常见问题</text>
+    </text>
+</view>

@@ -1,0 +1,40 @@
+<view class="content" hover-class="none" hover-stop-propagation="false">
+    <view class="conText" hover-class="none" hover-stop-propagation="false">资料设置</view>
+    <view class="conForm" hover-class="none" hover-stop-propagation="false">
+        <form bindsubmit="formSubmit">
+            <view class="formList" hover-class="none" hover-stop-propagation="false" bindtap="uploadImg" style="position: relative">
+                <text>企业图片</text>
+                <input disabled placeholder-class="placeholderStyle" placeholder="" />
+                <image class="formImg" src="{{userImg}}" mode="aspectFit|aspectFill|widthFix"></image>
+                <view></view>
+            </view>
+            <view class="formList" hover-class="none" hover-stop-propagation="false">
+                <text>企业名称：</text>
+                <input model:value="{{name}}" name="name" placeholder-class="placeholderStyle" placeholder="请点击输入" />
+            </view>
+            <view class="formList" hover-class="none" hover-stop-propagation="false">
+                <text>企业地址：</text>
+                <input model:value="{{address}}" name="address" placeholder-class="placeholderStyle" placeholder="请点击输入" />
+            </view>
+            <view class="formList" hover-class="none" hover-stop-propagation="false">
+                <text>负责人电话：</text>
+                <input model:value="{{phone}}" name="phone" placeholder-class="placeholderStyle" placeholder="请点击输入" />
+            </view>
+            <view class="formList" hover-class="none" hover-stop-propagation="false">
+                <input model:value="{{testing}}" name="testing" class="YZMinput" placeholder-class="inputStyle" placeholder="请输入验证码" />
+                <button class="YZMbut" disabled="{{getTestingBool}}" bindtap="getTesting">
+                    {{TimeNum}}
+                </button>
+            </view>
+            <view class="formList" hover-class="none" hover-stop-propagation="false" style="margin-top:20px">
+                <text class="posText">所在地区</text>
+                <image class="formIcon" src="cloud://water-h2hx9.7761-water-h2hx9-1301743701/images/icon1.png" />
+                <text class="posText2" style="font-size:12px">{{position}}</text>
+                <button bindtap="getPostiton">搜索</button>
+            </view>
+            <view class="formList" hover-class="none" hover-stop-propagation="false" style="margin-top:60px">
+                <button class="submitBut" form-type="submit">提  交</button>
+            </view>
+        </form>
+    </view>
+</view>

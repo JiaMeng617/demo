@@ -1,0 +1,39 @@
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.content image {
+  margin-top: 20%;
+  height: 200rpx;
+}
+.content .conText {
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin-top: 10px;
+  letter-spacing: 5px;
+}
+.content .conButton {
+  width: 500rpx;
+  height: 80rpx;
+  font-size: 0.7rem;
+  letter-spacing: 2px;
+}
+.content .button1 {
+  border: 1px solid #ADDAF7;
+  background-color: #fff;
+  color: #606060;
+}
+.content .button2 {
+  border: 1px solid #fff;
+  color: #fff;
+  background-color: #57B5F0;
+}
+.content .conLanguage {
+  margin-top: 250rpx;
+  font-size: 0.5rem;
+}
+.content .conLanguage text {
+  color: #606060;
+}

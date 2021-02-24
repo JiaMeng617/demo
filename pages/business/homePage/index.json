@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "homeInfo": "/component/HomeInfo/index",
+    "HomeColumns": "/component/HomeColumns/index",
+    "HomeSwiper": "/component/HomeSwiper/index",
+    "WaresList": "/component/WaresList/index"
+  }
+}

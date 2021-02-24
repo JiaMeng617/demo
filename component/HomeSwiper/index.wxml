@@ -1,0 +1,11 @@
+<view class="swiper">
+    <swiper indicator-dots="true" autoplay="true" interval="5000" duration="500">
+        <block wx:for="{{imageUrl}}" wx:key="*this">
+            <swiper-item>
+                <navigator open-type="navigateTo" url="{{item.url}}" hover-class="navigator-hover">
+                    <image src="{{item.imgUrl}}" />
+                </navigator>
+            </swiper-item>
+        </block>
+    </swiper>
+</view>

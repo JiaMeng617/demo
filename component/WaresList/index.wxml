@@ -1,0 +1,16 @@
+<view class="content" hover-class="none" hover-stop-propagation="false">
+    <view class="ware" hover-class="none" hover-stop-propagation="false" wx:for="{{dataList}}" wx:key="*this">
+        <navigator url="{{item.url}}" hover-class="navigator-hover" open-type="navigate">
+            <image src="{{item.imageUrl}}" lazy-load="false" binderror="" bindload="" />
+            <text class="title" selectable="false" space="false" decode="false">
+                {{item.title}}
+            </text>
+            <text class="norms" selectable="false" space="false" decode="false">
+                规格：{{item.norms}}
+            </text>
+            <text class="mouny" selectable="false" space="false" decode="false">
+                ￥{{item.mouny}}{{dataType}}
+            </text>
+        </navigator>
+    </view>
+</view>

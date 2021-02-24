@@ -1,0 +1,8 @@
+<view class="content" hover-class="none" hover-stop-propagation="false">
+    <image class="conLogo" src="{{backImg}}" mode="aspectFit|aspectFill|widthFix" lazy-load="false" binderror="" bindload="" />
+    <image class="conImg" src="{{userImg}}" bindtap="userInfo" mode="aspectFit|aspectFill|widthFix" lazy-load="false" binderror="" bindload="" />   
+    <text class="conTextName" selectable="false" space="false" decode="false">{{ companyName }}</text>
+    <text class="conTextMoney" selectable="false" space="false" decode="false">余额：￥{{ money }}</text>
+    <image class="conIcon" src="cloud://water-h2hx9.7761-water-h2hx9-1301743701/images/12.png" mode="aspectFit|aspectFill|widthFix" lazy-load="false" binderror="" bindload="" />
+    <navigator open-type="navigateTo">订单信息</navigator>
+</view>
